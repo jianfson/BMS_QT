@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created: Mon Mar 13 18:18:56 2017
+** Created: Tue Mar 14 14:13:40 2017
 **      by: Qt User Interface Compiler version 4.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -435,7 +435,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "USB2XXX USB2CAN Bootloader", 0, QApplication::UnicodeUTF8));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "BMS", 0, QApplication::UnicodeUTF8));
         exitAction->setText(QApplication::translate("MainWindow", "\351\200\200\345\207\272", 0, QApplication::UnicodeUTF8));
         scanNodeAction->setText(QApplication::translate("MainWindow", "\346\211\253\346\217\217\350\212\202\347\202\271", 0, QApplication::UnicodeUTF8));
         contactUsAction->setText(QApplication::translate("MainWindow", "\350\201\224\347\263\273\346\210\221\344\273\254", 0, QApplication::UnicodeUTF8));

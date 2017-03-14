@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>USB2XXX USB2CAN Bootloader</string>
+   <string>BMS</string>
   </property>
   <property name="windowIcon">
    <iconset resource="image.qrc">
