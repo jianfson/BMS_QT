@@ -13,6 +13,8 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 win32:LIBS += -L$$PWD/lib/win32/ -lUSB2XXX
 
+win32:LIBS += -L$$PWD/lib/win32/ -lControlCAN
+
 SOURCES += main.cpp\
         mainwindow.cpp \
     dialogforbmu.cpp
@@ -20,7 +22,8 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h \
     dialogforbmu.h \
     usb2can.h \
-    usb_device.h
+    usb_device.h \
+    ControlCAN.h
 
 FORMS    += mainwindow.ui \
     dialogforbmu.ui
