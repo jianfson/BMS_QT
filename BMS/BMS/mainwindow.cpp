@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "dialogforbmu.h"
+#include "dialogforparameter.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -93,7 +94,7 @@ bool MainWindow::DeviceConfig(void)
 
 void MainWindow::on_actionBMU_triggered()
 {
-    DialogforBMU *pDialogforBMU = new DialogforBMU();
+    Dialogforparameter *pDialogforBMU = new Dialogforparameter();
     pDialogforBMU->show();
 
 }
